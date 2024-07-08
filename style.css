@@ -47,8 +47,8 @@ nav ul li a:hover {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     color: #ff6347;
     text-align: center;
     padding: 0 2em;
