@@ -42,18 +42,19 @@ nav ul li a:hover {
 }
 
 .cover {
-    display: flex;
-    align-items: center;
-    background: url('pulse_logo.jpg') no-repeat left center/cover;
+    position: relative;
+    background: url('pulse_logo.jpg') no-repeat left top/contain; /* Met l'image en haut à gauche */
     height: 70vh; /* Réduire la hauteur de la section de couverture */
     color: #ff6347;
     padding: 0 2em;
+    display: flex;
+    justify-content: flex-end; /* Aligne le contenu à droite */
+    align-items: center;
 }
 
 .cover-content {
     max-width: 50%;
     text-align: center;
-    margin-left: auto;
 }
 
 .cover-content h1 {
