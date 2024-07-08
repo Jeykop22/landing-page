@@ -44,11 +44,10 @@ nav ul li a:hover {
 
 .cover {
     background: url('pulse_logo.jpg') no-repeat center center/cover;
-    height: 10vh;
-    width: 10vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     color: #ff6347;
     text-align: center;
