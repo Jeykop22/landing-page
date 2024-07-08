@@ -44,8 +44,8 @@ nav ul li a:hover {
 .cover {
     display: flex;
     align-items: center;
-    background: url('pulse_logo.jpg') no-repeat left center/50%;
-    height: 100vh;
+    background: url('pulse_logo.jpg') no-repeat left center/cover;
+    height: 70vh; /* Réduction de la hauteur de la section de couverture */
     color: #ff6347;
     padding: 0 2em;
 }
@@ -57,12 +57,12 @@ nav ul li a:hover {
 }
 
 .cover-content h1 {
-    font-size: 4em;
+    font-size: 3.5em; /* Réduction de la taille du titre */
     margin-bottom: 0.5em;
 }
 
 .cover-content p {
-    font-size: 1.5em;
+    font-size: 1.2em; /* Réduction de la taille du texte */
     margin-bottom: 1.5em;
 }
 
@@ -116,7 +116,7 @@ section {
     height: auto;
     border-radius: 10px;
     display: block;
-    margin: 0 auto; /* Centrer l'image à l'intérieur de la feature */
+    margin: 0 auto; /* Centrage de l'image */
 }
 
 .feature h3 {
