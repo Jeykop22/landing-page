@@ -39,14 +39,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: #000000;
 }
 
 .cover {
     background: url('pulse_logo.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
-    flex-direction: line;
+    flex-direction: column;
     justify-content: right;
     align-items: right;
     color: #ff6347;
